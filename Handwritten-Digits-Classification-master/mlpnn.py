@@ -83,7 +83,7 @@ def preprocess():
      - normalize the data to [0, 1]
      - feature selection"""
     
-    mat = loadmat('/home/avinav/ML/basecode/mnist_all.mat') #loads the MAT object as a Dictionary
+    mat = loadmat('/home/maha/ML/basecode/mnist_all.mat') #loads the MAT object as a Dictionary
     im_data = mat.get('train0')
     im_data = im_data.astype('float32')
     train_data_matrix = im_data/255
