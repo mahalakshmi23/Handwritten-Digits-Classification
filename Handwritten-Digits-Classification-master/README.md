@@ -39,17 +39,4 @@ The nodes of the neural network are considered as a continuous random variables 
 Classification is done with this constructed naive bayes model.<br>
 The connection between the bayes and neural network is tested both at hidden layer and output layer.
 <hr>
-###Confusion Matrix
 
-**Multilayer Perceptron Neural Network**
-![Model_Accuracy](/results/mlpnn_confusion.png)
-**Naive Bayes**
-![Model_Accuracy](/results/conf_matrix_naive_bayes.png)
-**Bayes-Neural Network (at hidden layer, Multinoulli RV features)**
-![Model_Accuracy](/results/conf_matrix_nn_bayes_hid.png)
-**Bayes-Neural Network (at output layer, Multinoulli RV features)**
-![Model_Accuracy](/results/conf_matrix_nn_bayes_out.png)
-**Bayes-Neural Network (at hidden layer, Guassian RV features)**
-![Model_Accuracy](/results/conf_matrix_norm_nnbayes_hid.png)
-**Bayes-Neural Network (at output layer, Guassian RV features)**
-![Model_Accuracy](/results/conf_matrix_norm_nn_bayes_out.png)
